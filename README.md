@@ -20,3 +20,29 @@
 2. Do `npm install alexa-app-server --save` to install dependency for server.
 3. Execute command `node server` to start a server.
 4. Go to browser and execute this url `http://localhost:8080/alexa/helloworld` to test app.
+
+
+## Example using Amazon Dot(Alexa)
+
+```
+Doctor : Hi Alexa, open scribe.
+
+Alexa : Welcome to scribe, Adam. Please select patient.
+
+Doctor : Select James Patterson.
+
+Alexa : Patient James Patterson selected. Please confim date of birth.
+
+Doctor : Patients date of birth is November ninteenth ninteen ninty one.
+
+Alexa : Date of birth  November ninteenth ninteen ninty one confirmed. Ready for commands.
+
+Doctor : Does patient have flu vaccine?
+
+Alexa : Last time, patient took flu vaccine on January first two thousand fifteen.
+
+Doctor : What is patient current blood pressure?
+
+Alexa : Patient's current blood pressure is xyz and average of year is abc.
+
+```
