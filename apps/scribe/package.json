@@ -1,0 +1,20 @@
+{
+  "name": "scribe",
+  "version": "0.1.0",
+  "description": "Alexa Scribe Skill",
+  "main": "index.js",
+  "alexa": {
+    "applicationId":"amzn1.ask.skill.d68eeacd-f9c9-4c23-b15c-2a8299908d90"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cerner",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-app": "^2.1.0",
+    "node-rest-client": "^2.0.1",
+    "dynasty": "^0.2.4",
+    "lodash": "^4.3.0"
+  }
+}

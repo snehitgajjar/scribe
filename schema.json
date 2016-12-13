@@ -1,0 +1,60 @@
+{
+  "intents": [
+    {
+      "intent": "SelectPatientIntent",
+      "slots": [
+        {
+          "name": "PatientFirstName",
+          "type": "AMAZON.US_FIRST_NAME"
+        },
+        {
+          "name": "PatientLastName",
+          "type": "LIST_OF_PATIENT_NAMES"
+        }
+      ]
+    },
+    {
+      "intent": "ConfirmDOBIntent",
+      "slots": [
+        {
+          "name": "DateOfBirth",
+          "type": "AMAZON.DATE"
+        }
+      ]
+    },
+    {
+      "intent": "SayLastTemperatureIntent",
+      "slots": [
+        {
+          "name": "PatientFirstName",
+          "type": "AMAZON.US_FIRST_NAME"
+        },
+        {
+          "name": "PatientLastName",
+          "type": "LIST_OF_PATIENT_NAMES"
+        }
+      ]
+    },
+    {
+      "intent": "SayAllergiesIntent"
+    },
+    {
+      "intent": "SayAverageBloodPressureIntent"
+    },
+    {
+      "intent": "SayPatientHasFluVaccine"
+    },
+    {
+      "intent": "NewPatientIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
